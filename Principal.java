@@ -96,7 +96,7 @@ System.out.println("Funcionarios agrupador por função");
     //Impressão em ordem alfabetica
     funcionarios.sort(Comparator.comparing(Funcionario::getNome));
     imprimirFuncionarios(funcionarios, formatador, "Funcionarios ordenados em ordem alfabetica");
-
+    //Total de salário    
     System.out.println("\n===Total de salário===");
     BigDecimal total = BigDecimal.ZERO;
     for (Funcionario f : funcionarios) {
